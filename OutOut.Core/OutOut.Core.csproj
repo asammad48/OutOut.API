@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="BackgroundServices\" />
+    <Folder Include="Mappers\Converters\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="ClosedXML" Version="0.105.0" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="3.3.0" />
+    <PackageReference Include="Humanizer.Core" Version="2.14.1" />
+    <PackageReference Include="Serilog" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OutOut.Constants\OutOut.Constants.csproj" />
+    <ProjectReference Include="..\OutOut.Infrastructure\OutOut.Infrastructure.csproj" />
+    <ProjectReference Include="..\OutOut.Models\OutOut.Models.csproj" />
+    <ProjectReference Include="..\OutOut.Persistence\OutOut.Persistence.csproj" />
+    <ProjectReference Include="..\OutOut.ViewModels\OutOut.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

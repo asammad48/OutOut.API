@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.4.0" />
+    <PackageReference Include="MailKit" Version="4.14.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.2.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.14.0" />
+    <PackageReference Include="MimeKit" Version="4.14.0" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OutOut.Models\OutOut.Models.csproj" />
+    <ProjectReference Include="..\OutOut.Persistence\OutOut.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domains\" />
+    <Folder Include="EntityInterfaces\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Identity\" />
+    <Folder Include="Models\Embedded\" />
+    <Folder Include="Wrappers\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="9.0.10" />
+    <PackageReference Include="MongoDB.Bson" Version="2.12.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OutOut.Constants\OutOut.Constants.csproj" />
+  </ItemGroup>
+
+</Project>

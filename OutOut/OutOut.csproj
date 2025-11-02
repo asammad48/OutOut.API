@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.4.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.72.0" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.21" />
+    <PackageReference Include="Hangfire.Core" Version="1.8.21" />
+    <PackageReference Include="Hangfire.Mongo" Version="0.7.24" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+    <PackageReference Include="Serilog.Sinks.Email" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OutOut.Constants\OutOut.Constants.csproj" />
+    <ProjectReference Include="..\OutOut.Core\OutOut.Core.csproj" />
+    <ProjectReference Include="..\OutOut.Infrastructure\OutOut.Infrastructure.csproj" />
+    <ProjectReference Include="..\OutOut.Models\OutOut.Models.csproj" />
+    <ProjectReference Include="..\OutOut.Persistence\OutOut.Persistence.csproj" />
+    <ProjectReference Include="..\OutOut.ViewModels\OutOut.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
