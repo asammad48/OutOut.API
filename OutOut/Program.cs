@@ -46,7 +46,7 @@ Log.Logger = new LoggerConfiguration()
 //------------------------------------------------------
 // 1. App configuration & logging
 //------------------------------------------------------
-builder.WebHost.UseUrls("http://0.0.0.0:8080"); // Needed for Docker
+//builder.WebHost.UseUrls("http://0.0.0.0:8080"); // Needed for Docker
 builder.Host.UseSerilog();
 
 builder.Services.Configure<AppSettings>(builder.Configuration);

@@ -1,0 +1,541 @@
+2025-11-02 23:53:01.577 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 23:53:01.911 +04:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 23:54:14.179 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 23:54:14.670 +04:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 23:54:15.612 +04:00 [DBG] Acquired lock for migration
+2025-11-02 23:54:15.710 +04:00 [INF] Starting Hangfire Server using job storage: 'Connection string: mongodb://<username>:<password>@localhost:27017, database name: Hangfire_Dev, prefix: hangfire'
+2025-11-02 23:54:15.713 +04:00 [INF] Using the following options for Mongo DB job storage:
+2025-11-02 23:54:15.716 +04:00 [INF]     Prefix: hangfire.
+2025-11-02 23:54:15.719 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-11-02 23:54:15.756 +04:00 [DBG] Execution loop BackgroundServerProcess:473df5ea has started in 13.0804 ms
+2025-11-02 23:54:15.792 +04:00 [INF] Server lt-le-772:14844:4b5c3060 successfully announced in 20.2211 ms
+2025-11-02 23:54:15.808 +04:00 [DBG] Execution loop ServerHeartbeatProcess:baaaa744 has started in 7.7967 ms
+2025-11-02 23:54:15.808 +04:00 [INF] Server lt-le-772:14844:4b5c3060 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, MongoExpirationManager, MongoNotificationObserver, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-11-02 23:54:15.857 +04:00 [DBG] Execution loop ServerWatchdog:9afd5e72 has started in 19.3967 ms
+2025-11-02 23:54:15.873 +04:00 [DBG] Execution loop ServerJobCancellationWatcher:1a182a6d has started in 32.3919 ms
+2025-11-02 23:54:15.894 +04:00 [DBG] Execution loop MongoExpirationManager:61eb620a has started in 22.0565 ms
+2025-11-02 23:54:15.907 +04:00 [DBG] Execution loop MongoNotificationObserver:5f742d86 has started in 30.7153 ms
+2025-11-02 23:54:15.959 +04:00 [DBG] Execution loop Worker:edddf917 has started in 61.5806 ms
+2025-11-02 23:54:16.254 +04:00 [INF] Server lt-le-772:14844:4b5c3060 all the dispatchers started
+2025-11-02 23:54:16.265 +04:00 [INF] 5 servers were removed due to timeout
+2025-11-02 23:54:15.960 +04:00 [DBG] Execution loop Worker:0d903ce0 has started in 64.6735 ms
+2025-11-02 23:54:15.983 +04:00 [DBG] Execution loop Worker:45fdf6b6 has started in 87.7442 ms
+2025-11-02 23:54:16.279 +04:00 [DBG] Removed 0 outdated documents from 'hangfire.jobGraph'.
+2025-11-02 23:54:16.030 +04:00 [DBG] Execution loop Worker:c02e2177 has started in 134.8711 ms
+2025-11-02 23:54:16.030 +04:00 [DBG] Execution loop Worker:7361c638 has started in 134.845 ms
+2025-11-02 23:54:16.042 +04:00 [DBG] Execution loop Worker:ed9380b3 has started in 146.6285 ms
+2025-11-02 23:54:16.074 +04:00 [DBG] Execution loop Worker:e8792225 has started in 179.6412 ms
+2025-11-02 23:54:16.074 +04:00 [DBG] Execution loop Worker:664f5fba has started in 179.4385 ms
+2025-11-02 23:54:16.081 +04:00 [DBG] Execution loop Worker:e380a85d has started in 185.6044 ms
+2025-11-02 23:54:16.098 +04:00 [DBG] Execution loop Worker:40ac6a95 has started in 202.6774 ms
+2025-11-02 23:54:16.098 +04:00 [DBG] Execution loop Worker:4598585e has started in 202.9905 ms
+2025-11-02 23:54:16.104 +04:00 [DBG] Execution loop Worker:52b89684 has started in 208.9474 ms
+2025-11-02 23:54:16.111 +04:00 [DBG] Execution loop Worker:94014d47 has started in 216.0554 ms
+2025-11-02 23:54:16.133 +04:00 [DBG] Execution loop Worker:80923ed7 has started in 231.0851 ms
+2025-11-02 23:54:16.134 +04:00 [DBG] Execution loop Worker:dc1bd853 has started in 239.2676 ms
+2025-11-02 23:54:16.187 +04:00 [DBG] Execution loop Worker:0b5bf318 has started in 291.4787 ms
+2025-11-02 23:54:16.187 +04:00 [DBG] Execution loop Worker:ad8cfa80 has started in 292.1459 ms
+2025-11-02 23:54:16.199 +04:00 [DBG] Execution loop Worker:13d82d14 has started in 304.2367 ms
+2025-11-02 23:54:16.212 +04:00 [DBG] Execution loop Worker:8d2938c0 has started in 317.3947 ms
+2025-11-02 23:54:16.227 +04:00 [DBG] Execution loop Worker:2cfb10f7 has started in 331.9188 ms
+2025-11-02 23:54:16.253 +04:00 [DBG] Execution loop DelayedJobScheduler:913ad07e has started in 39.2347 ms
+2025-11-02 23:54:16.266 +04:00 [DBG] Execution loop RecurringJobScheduler:5798e944 has started in 15.2904 ms
+2025-11-02 23:54:16.584 +04:00 [DBG] Hosting starting
+2025-11-02 23:54:16.614 +04:00 [INF] User profile is available. Using 'C:\Users\ather.rehan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 23:54:16.683 +04:00 [DBG] 1 recurring job(s) processed by scheduler.
+2025-11-02 23:54:16.976 +04:00 [DBG] Reading data from file 'C:\Users\ather.rehan\AppData\Local\ASP.NET\DataProtection-Keys\key-08ec5f23-d46b-4e98-8dab-b48b007a0e16.xml'.
+2025-11-02 23:54:16.999 +04:00 [DBG] Found key {08ec5f23-d46b-4e98-8dab-b48b007a0e16}.
+2025-11-02 23:54:17.021 +04:00 [DBG] Considering key {08ec5f23-d46b-4e98-8dab-b48b007a0e16} with expiration date 2025-12-05 08:02:06Z as default key.
+2025-11-02 23:54:17.034 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-02 23:54:17.043 +04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-02 23:54:17.051 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-02 23:54:17.056 +04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-02 23:54:17.061 +04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-02 23:54:17.068 +04:00 [DBG] Using key {08ec5f23-d46b-4e98-8dab-b48b007a0e16} as the default key.
+2025-11-02 23:54:17.071 +04:00 [DBG] Key ring with default key {08ec5f23-d46b-4e98-8dab-b48b007a0e16} was loaded during application startup.
+2025-11-02 23:54:17.076 +04:00 [INF] Starting ReminderService...
+2025-11-02 23:54:17.132 +04:00 [DBG] Middleware loaded
+2025-11-02 23:54:17.138 +04:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-11-02 23:54:17.144 +04:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-02 23:54:17.240 +04:00 [WRN] The WebRootPath was not found: C:\Users\ather.rehan\Source\Repos\OutOut.API\OutOut\wwwroot. Static files may be unavailable.
+2025-11-02 23:54:17.271 +04:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-02 23:54:17.274 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-02 23:54:17.281 +04:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-02 23:54:17.312 +04:00 [INF] Now listening on: http://0.0.0.0:8080
+2025-11-02 23:54:17.314 +04:00 [DBG] Loaded hosting startup assembly OutOut
+2025-11-02 23:54:17.319 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-02 23:54:17.321 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-02 23:54:17.323 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-02 23:54:17.340 +04:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-02 23:54:17.345 +04:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-02 23:54:17.474 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 23:54:17.477 +04:00 [INF] Hosting environment: Development
+2025-11-02 23:54:17.479 +04:00 [INF] Content root path: C:\Users\ather.rehan\Source\Repos\OutOut.API\OutOut
+2025-11-02 23:54:17.483 +04:00 [DBG] Hosting started
+2025-11-02 23:54:26.038 +04:00 [INF] Application is shutting down...
+2025-11-02 23:54:26.039 +04:00 [DBG] Hosting stopping
+2025-11-02 23:54:26.041 +04:00 [DBG] Hangfire Server is stopping...
+2025-11-02 23:54:26.045 +04:00 [INF] Server lt-le-772:14844:4b5c3060 caught stopping signal...
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:664f5fba stopped in 9.8663 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop ServerWatchdog:9afd5e72 stopped in 10.1609 ms
+2025-11-02 23:54:26.059 +04:00 [DBG] Execution loop ServerJobCancellationWatcher:1a182a6d stopped in 10.432 ms
+2025-11-02 23:54:26.061 +04:00 [DBG] Execution loop MongoExpirationManager:61eb620a stopped in 13.1394 ms
+2025-11-02 23:54:26.059 +04:00 [DBG] Execution loop Worker:edddf917 stopped in 10.4145 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:0d903ce0 stopped in 9.9843 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:45fdf6b6 stopped in 10.3424 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:c02e2177 stopped in 9.809 ms
+2025-11-02 23:54:26.059 +04:00 [DBG] Execution loop Worker:7361c638 stopped in 10.5029 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:ed9380b3 stopped in 9.9879 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:e8792225 stopped in 9.9245 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:e380a85d stopped in 10.0217 ms
+2025-11-02 23:54:26.059 +04:00 [DBG] Execution loop Worker:40ac6a95 stopped in 10.4472 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:4598585e stopped in 9.8411 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:52b89684 stopped in 9.8988 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:94014d47 stopped in 10.1426 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:80923ed7 stopped in 10.1589 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:dc1bd853 stopped in 10.0377 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:0b5bf318 stopped in 10.089 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:ad8cfa80 stopped in 10.0357 ms
+2025-11-02 23:54:26.059 +04:00 [DBG] Execution loop Worker:13d82d14 stopped in 10.3754 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:8d2938c0 stopped in 10.1786 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop Worker:2cfb10f7 stopped in 9.9026 ms
+2025-11-02 23:54:26.059 +04:00 [DBG] Execution loop DelayedJobScheduler:913ad07e stopped in 10.4405 ms
+2025-11-02 23:54:26.058 +04:00 [DBG] Execution loop RecurringJobScheduler:5798e944 stopped in 10.0549 ms
+2025-11-02 23:54:26.704 +04:00 [INF] Server lt-le-772:14844:4b5c3060 caught stopped signal...
+2025-11-02 23:54:27.057 +04:00 [DBG] Execution loop MongoNotificationObserver:5f742d86 stopped in 1008.5683 ms
+2025-11-02 23:54:27.067 +04:00 [INF] Server lt-le-772:14844:4b5c3060 All dispatchers stopped
+2025-11-02 23:54:27.071 +04:00 [DBG] Execution loop ServerHeartbeatProcess:baaaa744 stopped in 0.769 ms
+2025-11-02 23:54:27.089 +04:00 [INF] Server lt-le-772:14844:4b5c3060 successfully reported itself as stopped in 2.6828 ms
+2025-11-02 23:54:27.091 +04:00 [INF] Server lt-le-772:14844:4b5c3060 has been stopped in total 1042.663 ms
+2025-11-02 23:54:27.095 +04:00 [DBG] Execution loop BackgroundServerProcess:473df5ea stopped in 1046.329 ms
+2025-11-02 23:54:46.520 +04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 23:54:46.951 +04:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 23:54:47.859 +04:00 [DBG] Acquired lock for migration
+2025-11-02 23:54:47.950 +04:00 [INF] Starting Hangfire Server using job storage: 'Connection string: mongodb://<username>:<password>@localhost:27017, database name: Hangfire_Dev, prefix: hangfire'
+2025-11-02 23:54:47.954 +04:00 [INF] Using the following options for Mongo DB job storage:
+2025-11-02 23:54:47.960 +04:00 [INF]     Prefix: hangfire.
+2025-11-02 23:54:47.963 +04:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-11-02 23:54:47.984 +04:00 [DBG] Execution loop BackgroundServerProcess:7afad5b3 has started in 5.8828 ms
+2025-11-02 23:54:48.086 +04:00 [INF] Server lt-le-772:21300:7cf2973a successfully announced in 48.3236 ms
+2025-11-02 23:54:48.104 +04:00 [DBG] Execution loop ServerHeartbeatProcess:188c9bd6 has started in 13.4036 ms
+2025-11-02 23:54:48.106 +04:00 [INF] Server lt-le-772:21300:7cf2973a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, MongoExpirationManager, MongoNotificationObserver, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-11-02 23:54:48.131 +04:00 [DBG] Execution loop ServerWatchdog:4b265f75 has started in 13.533 ms
+2025-11-02 23:54:48.145 +04:00 [DBG] Execution loop ServerJobCancellationWatcher:c60c6530 has started in 25.793 ms
+2025-11-02 23:54:48.160 +04:00 [DBG] Execution loop MongoExpirationManager:6481cc05 has started in 17.389 ms
+2025-11-02 23:54:48.201 +04:00 [DBG] Execution loop MongoNotificationObserver:5807f7a8 has started in 53.2893 ms
+2025-11-02 23:54:48.259 +04:00 [DBG] Execution loop Worker:a8402f08 has started in 97.3007 ms
+2025-11-02 23:54:48.588 +04:00 [INF] Server lt-le-772:21300:7cf2973a all the dispatchers started
+2025-11-02 23:54:48.260 +04:00 [DBG] Execution loop Worker:44576366 has started in 97.809 ms
+2025-11-02 23:54:48.258 +04:00 [DBG] Execution loop Worker:12a2832b has started in 96.2105 ms
+2025-11-02 23:54:48.269 +04:00 [DBG] Execution loop Worker:1c3d6f77 has started in 107.1656 ms
+2025-11-02 23:54:48.289 +04:00 [DBG] Execution loop Worker:9c43d331 has started in 126.7749 ms
+2025-11-02 23:54:48.312 +04:00 [DBG] Execution loop Worker:9636e80f has started in 149.7663 ms
+2025-11-02 23:54:48.325 +04:00 [DBG] Execution loop Worker:edfd09e0 has started in 163.1752 ms
+2025-11-02 23:54:48.341 +04:00 [DBG] Execution loop Worker:5189ee44 has started in 179.1766 ms
+2025-11-02 23:54:48.377 +04:00 [DBG] Execution loop Worker:d1ccd299 has started in 215.583 ms
+2025-11-02 23:54:48.419 +04:00 [DBG] Execution loop Worker:676dd496 has started in 257.2016 ms
+2025-11-02 23:54:48.470 +04:00 [DBG] Execution loop Worker:08cb65e9 has started in 308.1501 ms
+2025-11-02 23:54:48.733 +04:00 [DBG] Removed 0 outdated documents from 'hangfire.jobGraph'.
+2025-11-02 23:54:48.470 +04:00 [DBG] Execution loop Worker:7aaa8eb4 has started in 308.3392 ms
+2025-11-02 23:54:48.477 +04:00 [DBG] Execution loop Worker:982f958c has started in 314.6098 ms
+2025-11-02 23:54:48.527 +04:00 [DBG] Execution loop Worker:4511af78 has started in 364.9561 ms
+2025-11-02 23:54:48.525 +04:00 [DBG] Execution loop Worker:7f8fca76 has started in 363.6784 ms
+2025-11-02 23:54:48.525 +04:00 [DBG] Execution loop Worker:bba4f34f has started in 363.6605 ms
+2025-11-02 23:54:48.528 +04:00 [DBG] Execution loop Worker:ffc9a7aa has started in 365.8094 ms
+2025-11-02 23:54:48.541 +04:00 [DBG] Execution loop Worker:9934f3bb has started in 378.3519 ms
+2025-11-02 23:54:48.565 +04:00 [DBG] Execution loop Worker:6f98d139 has started in 402.9957 ms
+2025-11-02 23:54:48.581 +04:00 [DBG] Execution loop Worker:a9ecc44d has started in 419.0889 ms
+2025-11-02 23:54:48.588 +04:00 [DBG] Execution loop DelayedJobScheduler:1cc2b8cf has started in 8.5368 ms
+2025-11-02 23:54:48.605 +04:00 [DBG] Execution loop RecurringJobScheduler:2428522d has started in 23.2662 ms
+2025-11-02 23:54:49.101 +04:00 [DBG] Hosting starting
+2025-11-02 23:54:49.132 +04:00 [INF] User profile is available. Using 'C:\Users\ather.rehan\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 23:54:49.697 +04:00 [DBG] Reading data from file 'C:\Users\ather.rehan\AppData\Local\ASP.NET\DataProtection-Keys\key-08ec5f23-d46b-4e98-8dab-b48b007a0e16.xml'.
+2025-11-02 23:54:49.716 +04:00 [DBG] Found key {08ec5f23-d46b-4e98-8dab-b48b007a0e16}.
+2025-11-02 23:54:49.755 +04:00 [DBG] Considering key {08ec5f23-d46b-4e98-8dab-b48b007a0e16} with expiration date 2025-12-05 08:02:06Z as default key.
+2025-11-02 23:54:49.774 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-02 23:54:49.794 +04:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-02 23:54:49.811 +04:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-02 23:54:49.834 +04:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-02 23:54:49.868 +04:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-02 23:54:49.889 +04:00 [DBG] Using key {08ec5f23-d46b-4e98-8dab-b48b007a0e16} as the default key.
+2025-11-02 23:54:49.903 +04:00 [DBG] Key ring with default key {08ec5f23-d46b-4e98-8dab-b48b007a0e16} was loaded during application startup.
+2025-11-02 23:54:49.932 +04:00 [INF] Starting ReminderService...
+2025-11-02 23:54:50.034 +04:00 [DBG] Middleware loaded
+2025-11-02 23:54:50.038 +04:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16497 B).
+2025-11-02 23:54:50.040 +04:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-02 23:54:50.285 +04:00 [WRN] The WebRootPath was not found: C:\Users\ather.rehan\Source\Repos\OutOut.API\OutOut\wwwroot. Static files may be unavailable.
+2025-11-02 23:54:50.402 +04:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-02 23:54:50.406 +04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-02 23:54:50.415 +04:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-02 23:54:50.641 +04:00 [INF] Now listening on: https://localhost:7213
+2025-11-02 23:54:50.644 +04:00 [INF] Now listening on: http://localhost:5090
+2025-11-02 23:54:50.648 +04:00 [DBG] Loaded hosting startup assembly OutOut
+2025-11-02 23:54:50.651 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-02 23:54:50.652 +04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-02 23:54:50.653 +04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-02 23:54:50.673 +04:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-02 23:54:50.682 +04:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-02 23:54:50.992 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 23:54:50.999 +04:00 [INF] Hosting environment: Development
+2025-11-02 23:54:51.005 +04:00 [INF] Content root path: C:\Users\ather.rehan\Source\Repos\OutOut.API\OutOut
+2025-11-02 23:54:51.018 +04:00 [DBG] Hosting started
+2025-11-02 23:54:57.808 +04:00 [DBG] Connection id "0HNGQ96PMGISO" accepted.
+2025-11-02 23:54:57.812 +04:00 [DBG] Connection id "0HNGQ96PMGISO" started.
+2025-11-02 23:54:57.946 +04:00 [DBG] Connection 0HNGQ96PMGISO established using the following protocol: "Tls13"
+2025-11-02 23:54:58.088 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/ - null null
+2025-11-02 23:54:58.367 +04:00 [DBG] The request path / does not match a supported file type
+2025-11-02 23:54:58.451 +04:00 [DBG] No candidates found for the request path '/'
+2025-11-02 23:54:58.461 +04:00 [DBG] Request did not match any endpoints
+2025-11-02 23:54:58.489 +04:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-02 23:54:58.843 +04:00 [INF] HTTP GET / responded 404 in 465.3595 ms
+2025-11-02 23:54:58.873 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7213/ - 404 0 null 797.6271ms
+2025-11-02 23:54:58.890 +04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7213/, Response status code: 404
+2025-11-02 23:55:04.065 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-02 23:55:04.065 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/_vs/browserLink - null null
+2025-11-02 23:55:04.109 +04:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-02 23:55:04.115 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 50.7716ms
+2025-11-02 23:55:04.184 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7213/_vs/browserLink - 200 null text/javascript; charset=UTF-8 118.5393ms
+2025-11-02 23:55:04.268 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/swagger/v1/swagger.json - null null
+2025-11-02 23:55:04.869 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7213/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 601.4884ms
+2025-11-02 23:55:13.920 +04:00 [DBG] Connection id "0HNGQ96PMGISO" received FIN.
+2025-11-02 23:55:13.927 +04:00 [DBG] Connection id "0HNGQ96PMGISO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-02 23:55:13.937 +04:00 [DBG] Connection id "0HNGQ96PMGISO" is closed. The last processed stream ID was 7.
+2025-11-02 23:55:13.941 +04:00 [DBG] The connection queue processing loop for 0HNGQ96PMGISO completed.
+2025-11-02 23:55:13.948 +04:00 [DBG] Connection id "0HNGQ96PMGISO" stopped.
+2025-11-02 23:55:18.515 +04:00 [DBG] Server lt-le-772:21300:7cf2973a heartbeat successfully sent
+2025-11-02 23:55:48.601 +04:00 [DBG] Server lt-le-772:21300:7cf2973a heartbeat successfully sent
+2025-11-02 23:56:05.807 +04:00 [DBG] Connection id "0HNGQ96PMGISP" accepted.
+2025-11-02 23:56:05.811 +04:00 [DBG] Connection id "0HNGQ96PMGISP" started.
+2025-11-02 23:56:05.823 +04:00 [DBG] Connection 0HNGQ96PMGISP established using the following protocol: "Tls13"
+2025-11-02 23:56:05.831 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7213/api/Auth/Login - application/json 100
+2025-11-02 23:56:05.844 +04:00 [DBG] POST requests are not supported
+2025-11-02 23:56:05.934 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Auth/Login'
+2025-11-02 23:56:05.955 +04:00 [DBG] Endpoint 'OutOut.Controllers.AuthController.Login (OutOut)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login'
+2025-11-02 23:56:05.972 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.AuthController.Login (OutOut)'
+2025-11-02 23:56:06.001 +04:00 [DBG] The request has an origin header: 'https://localhost:7213'.
+2025-11-02 23:56:06.009 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:56:06.276 +04:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-11-02 23:56:06.317 +04:00 [INF] Executing endpoint 'OutOut.Controllers.AuthController.Login (OutOut)'
+2025-11-02 23:56:06.416 +04:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(OutOut.ViewModels.Requests.Auth.LoginRequest) on controller OutOut.Controllers.AuthController (OutOut).
+2025-11-02 23:56:06.433 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:56:06.441 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:56:06.448 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:56:06.463 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:56:06.472 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:56:06.492 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.AuthController (OutOut)
+2025-11-02 23:56:06.543 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.AuthController (OutOut)
+2025-11-02 23:56:06.562 +04:00 [DBG] Attempting to bind parameter 'loginViewModel' of type 'OutOut.ViewModels.Requests.Auth.LoginRequest' ...
+2025-11-02 23:56:06.579 +04:00 [DBG] Attempting to bind parameter 'loginViewModel' of type 'OutOut.ViewModels.Requests.Auth.LoginRequest' using the name '' in request data ...
+2025-11-02 23:56:06.585 +04:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-02 23:56:06.601 +04:00 [DBG] Connection id "0HNGQ96PMGISP", Request id "0HNGQ96PMGISP:00000001": started reading request body.
+2025-11-02 23:56:06.605 +04:00 [DBG] Connection id "0HNGQ96PMGISP", Request id "0HNGQ96PMGISP:00000001": done reading request body.
+2025-11-02 23:56:06.617 +04:00 [DBG] JSON input formatter succeeded, deserializing to type 'OutOut.ViewModels.Requests.Auth.LoginRequest'
+2025-11-02 23:56:06.619 +04:00 [DBG] Done attempting to bind parameter 'loginViewModel' of type 'OutOut.ViewModels.Requests.Auth.LoginRequest'.
+2025-11-02 23:56:06.622 +04:00 [DBG] Done attempting to bind parameter 'loginViewModel' of type 'OutOut.ViewModels.Requests.Auth.LoginRequest'.
+2025-11-02 23:56:06.627 +04:00 [DBG] Attempting to validate the bound parameter 'loginViewModel' of type 'OutOut.ViewModels.Requests.Auth.LoginRequest' ...
+2025-11-02 23:56:06.650 +04:00 [DBG] Done attempting to validate the bound parameter 'loginViewModel' of type 'OutOut.ViewModels.Requests.Auth.LoginRequest'.
+2025-11-02 23:56:07.245 +04:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-02 23:56:07.271 +04:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-02 23:56:07.281 +04:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-02 23:56:07.288 +04:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-02 23:56:07.312 +04:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-02 23:56:07.319 +04:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-02 23:56:07.329 +04:00 [INF] Executing OkObjectResult, writing value of type 'OutOut.ViewModels.Wrappers.SuccessOperationResult`1[[OutOut.ViewModels.Responses.Auth.LoginResponse, OutOut.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-02 23:56:07.412 +04:00 [INF] Executed action OutOut.Controllers.AuthController.Login (OutOut) in 926.2828ms
+2025-11-02 23:56:07.417 +04:00 [INF] Executed endpoint 'OutOut.Controllers.AuthController.Login (OutOut)'
+2025-11-02 23:56:07.424 +04:00 [INF] HTTP POST /api/Auth/Login responded 200 in 1574.7836 ms
+2025-11-02 23:56:07.439 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7213/api/Auth/Login - 200 null application/json; charset=utf-8 1608.3257ms
+2025-11-02 23:56:09.157 +04:00 [DBG] Connection id "0HNGQ96PMGISP" received FIN.
+2025-11-02 23:56:09.165 +04:00 [DBG] Connection id "0HNGQ96PMGISP" is closed. The last processed stream ID was 1.
+2025-11-02 23:56:09.166 +04:00 [DBG] The connection queue processing loop for 0HNGQ96PMGISP completed.
+2025-11-02 23:56:09.178 +04:00 [DBG] Connection id "0HNGQ96PMGISP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-02 23:56:09.198 +04:00 [DBG] Connection id "0HNGQ96PMGISP" stopped.
+2025-11-02 23:56:18.732 +04:00 [DBG] Server lt-le-772:21300:7cf2973a heartbeat successfully sent
+2025-11-02 23:56:48.826 +04:00 [DBG] Server lt-le-772:21300:7cf2973a heartbeat successfully sent
+2025-11-02 23:57:18.860 +04:00 [DBG] Server lt-le-772:21300:7cf2973a heartbeat successfully sent
+2025-11-02 23:57:20.071 +04:00 [DBG] Connection id "0HNGQ96PMGISQ" accepted.
+2025-11-02 23:57:20.080 +04:00 [DBG] Connection id "0HNGQ96PMGISQ" started.
+2025-11-02 23:57:20.094 +04:00 [DBG] Connection 0HNGQ96PMGISQ established using the following protocol: "Tls13"
+2025-11-02 23:57:20.153 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Event/GetUpcomingEvents - null null
+2025-11-02 23:57:20.189 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Offer/GetNewestOffers - null null
+2025-11-02 23:57:20.153 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Event/GetOngoingEvents - null null
+2025-11-02 23:57:20.247 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Offer/GetAssignedUpcomingOffersPage?pageNumber=0&pageSize=10& - null null
+2025-11-02 23:57:20.248 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Venue/GetNewestVenues - null null
+2025-11-02 23:57:20.271 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.286 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.291 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.296 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.329 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Event/GetUpcomingEvents'
+2025-11-02 23:57:20.329 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Offer/GetNewestOffers'
+2025-11-02 23:57:20.536 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.329 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Event/GetOngoingEvents'
+2025-11-02 23:57:20.391 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Offer/GetAssignedUpcomingOffersPage'
+2025-11-02 23:57:20.309 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.396 +04:00 [DBG] Connection id "0HNGQ96PMGISR" accepted.
+2025-11-02 23:57:20.626 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.616 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.635 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.637 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.643 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Venue/GetNewestVenues'
+2025-11-02 23:57:20.535 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/AdminProfile/GetMyNotificationsForAdmin?pageNumber=0&pageSize=5& - null null
+2025-11-02 23:57:20.695 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.535 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Category/GetActiveCategories?typeFor=0& - null null
+2025-11-02 23:57:20.604 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Offer/GetOfferTypes - null null
+2025-11-02 23:57:20.615 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/City/GetActiveCities - null null
+2025-11-02 23:57:20.666 +04:00 [DBG] Connection id "0HNGQ96PMGISR" started.
+2025-11-02 23:57:20.669 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.673 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.676 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.680 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.682 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.723 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.734 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.735 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.709 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.713 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.716 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.717 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.719 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.720 +04:00 [DBG] Connection 0HNGQ96PMGISR established using the following protocol: "Tls13"
+2025-11-02 23:57:20.721 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.549 +04:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7213/api/Category/GetActiveCategories?typeFor=1& - null null
+2025-11-02 23:57:20.699 +04:00 [DBG] 1 candidate(s) found for the request path '/api/AdminProfile/GetMyNotificationsForAdmin'
+2025-11-02 23:57:20.758 +04:00 [INF] Request starting HTTP/1.1 GET https://localhost:7213/NotificationHub - null null
+2025-11-02 23:57:20.705 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.742 +04:00 [INF] HTTP OPTIONS /api/Venue/GetNewestVenues responded 204 in 101.5814 ms
+2025-11-02 23:57:20.748 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Offer/GetOfferTypes'
+2025-11-02 23:57:20.749 +04:00 [INF] HTTP OPTIONS /api/Event/GetUpcomingEvents responded 204 in 430.9110 ms
+2025-11-02 23:57:20.749 +04:00 [DBG] 1 candidate(s) found for the request path '/api/City/GetActiveCities'
+2025-11-02 23:57:20.750 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.751 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.754 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.757 +04:00 [DBG] OPTIONS requests are not supported
+2025-11-02 23:57:20.758 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.762 +04:00 [DBG] The request path /NotificationHub does not match a supported file type
+2025-11-02 23:57:20.763 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Category/GetActiveCategories'
+2025-11-02 23:57:20.766 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Venue/GetNewestVenues - 204 null null 518.6131ms
+2025-11-02 23:57:20.767 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.769 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Venue/GetNewestVenues - null null
+2025-11-02 23:57:20.770 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Event/GetUpcomingEvents - 204 null null 632.6285ms
+2025-11-02 23:57:20.771 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.773 +04:00 [INF] HTTP OPTIONS /api/Offer/GetNewestOffers responded 204 in 450.4440 ms
+2025-11-02 23:57:20.774 +04:00 [INF] HTTP OPTIONS /api/Event/GetOngoingEvents responded 204 in 447.6017 ms
+2025-11-02 23:57:20.774 +04:00 [INF] HTTP OPTIONS /api/Offer/GetAssignedUpcomingOffersPage responded 204 in 383.2865 ms
+2025-11-02 23:57:20.776 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.777 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Category/GetActiveCategories'
+2025-11-02 23:57:20.778 +04:00 [DBG] 1 candidate(s) found for the request path '/NotificationHub'
+2025-11-02 23:57:20.779 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.786 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.788 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Event/GetUpcomingEvents - null null
+2025-11-02 23:57:20.868 +04:00 [DBG] The request path /api/Event/GetUpcomingEvents does not match a supported file type
+2025-11-02 23:57:20.813 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.819 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Offer/GetNewestOffers - 204 null null 630.2396ms
+2025-11-02 23:57:20.823 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Offer/GetNewestOffers - null null
+2025-11-02 23:57:20.824 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Event/GetOngoingEvents - 204 null null 687.3501ms
+2025-11-02 23:57:20.845 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Offer/GetAssignedUpcomingOffersPage?pageNumber=0&pageSize=10& - 204 null null 598.5761ms
+2025-11-02 23:57:20.848 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.851 +04:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-11-02 23:57:20.853 +04:00 [DBG] Request matched endpoint '/NotificationHub'
+2025-11-02 23:57:20.855 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.856 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.790 +04:00 [DBG] The request path /api/Venue/GetNewestVenues does not match a supported file type
+2025-11-02 23:57:20.887 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.907 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Event/GetUpcomingEvents'
+2025-11-02 23:57:20.926 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7213/api/Offer/GetAssignedUpcomingOffersPage?pageNumber=0&pageSize=10& - application/json 2
+2025-11-02 23:57:20.932 +04:00 [DBG] The request path /api/Offer/GetNewestOffers does not match a supported file type
+2025-11-02 23:57:20.942 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Event/GetOngoingEvents - null null
+2025-11-02 23:57:20.947 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.949 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.950 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:20.951 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.953 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.959 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.962 +04:00 [DBG] Endpoint 'OutOut.Controllers.EventController.GetUpcomingEvents (OutOut)' with route pattern 'api/Event/GetUpcomingEvents' is valid for the request path '/api/Event/GetUpcomingEvents'
+2025-11-02 23:57:20.968 +04:00 [DBG] POST requests are not supported
+2025-11-02 23:57:20.970 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Offer/GetNewestOffers'
+2025-11-02 23:57:20.974 +04:00 [DBG] The request path /api/Event/GetOngoingEvents does not match a supported file type
+2025-11-02 23:57:20.975 +04:00 [INF] HTTP OPTIONS /api/AdminProfile/GetMyNotificationsForAdmin responded 204 in 276.0197 ms
+2025-11-02 23:57:20.976 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.977 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Venue/GetNewestVenues'
+2025-11-02 23:57:20.978 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:20.979 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.980 +04:00 [INF] HTTP OPTIONS /api/Offer/GetOfferTypes responded 204 in 237.0464 ms
+2025-11-02 23:57:20.982 +04:00 [INF] HTTP OPTIONS /api/City/GetActiveCities responded 204 in 234.0461 ms
+2025-11-02 23:57:20.984 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.EventController.GetUpcomingEvents (OutOut)'
+2025-11-02 23:57:20.985 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Offer/GetAssignedUpcomingOffersPage'
+2025-11-02 23:57:20.987 +04:00 [DBG] Endpoint 'OutOut.Controllers.OfferController.GetNewestOffers (OutOut)' with route pattern 'api/Offer/GetNewestOffers' is valid for the request path '/api/Offer/GetNewestOffers'
+2025-11-02 23:57:20.989 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Event/GetOngoingEvents'
+2025-11-02 23:57:20.992 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/AdminProfile/GetMyNotificationsForAdmin?pageNumber=0&pageSize=5& - 204 null null 495.6979ms
+2025-11-02 23:57:20.993 +04:00 [DBG] The request is a preflight request.
+2025-11-02 23:57:20.995 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/AdminProfile/GetMyNotificationsForAdmin?pageNumber=0&pageSize=5& - null null
+2025-11-02 23:57:20.998 +04:00 [DBG] Endpoint 'OutOut.Controllers.VenueController.GetNewestVenues (OutOut)' with route pattern 'api/Venue/GetNewestVenues' is valid for the request path '/api/Venue/GetNewestVenues'
+2025-11-02 23:57:21.004 +04:00 [INF] HTTP OPTIONS /api/Category/GetActiveCategories responded 204 in 241.3289 ms
+2025-11-02 23:57:21.007 +04:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-02 23:57:21.012 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Offer/GetOfferTypes - 204 null null 450.9194ms
+2025-11-02 23:57:21.017 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/City/GetActiveCities - 204 null null 401.7119ms
+2025-11-02 23:57:21.019 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.022 +04:00 [DBG] Endpoint 'OutOut.Controllers.OfferController.GetAssignedUpcomingOffersPage (OutOut)' with route pattern 'api/Offer/GetAssignedUpcomingOffersPage' is valid for the request path '/api/Offer/GetAssignedUpcomingOffersPage'
+2025-11-02 23:57:21.026 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.OfferController.GetNewestOffers (OutOut)'
+2025-11-02 23:57:21.030 +04:00 [DBG] Endpoint 'OutOut.Controllers.EventController.GetOngoingEvents (OutOut)' with route pattern 'api/Event/GetOngoingEvents' is valid for the request path '/api/Event/GetOngoingEvents'
+2025-11-02 23:57:21.044 +04:00 [INF] HTTP OPTIONS /api/Category/GetActiveCategories responded 204 in 268.5661 ms
+2025-11-02 23:57:21.048 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Offer/GetOfferTypes - null null
+2025-11-02 23:57:21.053 +04:00 [DBG] The request path /api/AdminProfile/GetMyNotificationsForAdmin does not match a supported file type
+2025-11-02 23:57:21.059 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.VenueController.GetNewestVenues (OutOut)'
+2025-11-02 23:57:21.070 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Category/GetActiveCategories?typeFor=0& - 204 null null 534.751ms
+2025-11-02 23:57:21.086 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/City/GetActiveCities - null null
+2025-11-02 23:57:21.110 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.111 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Category/GetActiveCategories?typeFor=0& - null null
+2025-11-02 23:57:21.116 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.OfferController.GetAssignedUpcomingOffersPage (OutOut)'
+2025-11-02 23:57:21.117 +04:00 [INF] Executing endpoint '/NotificationHub'
+2025-11-02 23:57:21.118 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.122 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.EventController.GetOngoingEvents (OutOut)'
+2025-11-02 23:57:21.126 +04:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7213/api/Category/GetActiveCategories?typeFor=1& - 204 null null 586.2153ms
+2025-11-02 23:57:21.134 +04:00 [DBG] The request path /api/Offer/GetOfferTypes does not match a supported file type
+2025-11-02 23:57:21.142 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.146 +04:00 [DBG] 1 candidate(s) found for the request path '/api/AdminProfile/GetMyNotificationsForAdmin'
+2025-11-02 23:57:21.153 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7213/api/Category/GetActiveCategories?typeFor=1& - null null
+2025-11-02 23:57:21.157 +04:00 [DBG] The request path /api/City/GetActiveCities does not match a supported file type
+2025-11-02 23:57:21.170 +04:00 [DBG] The request path /api/Category/GetActiveCategories does not match a supported file type
+2025-11-02 23:57:21.184 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.193 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.200 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.210 +04:00 [DBG] New connection aS4S7V_Sw3qwSr6AcBf0SA created.
+2025-11-02 23:57:21.230 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Offer/GetOfferTypes'
+2025-11-02 23:57:21.236 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.247 +04:00 [DBG] Endpoint 'OutOut.Controllers.AdminProfileController.GetMyNotificationsForAdmin (OutOut)' with route pattern 'api/AdminProfile/GetMyNotificationsForAdmin' is valid for the request path '/api/AdminProfile/GetMyNotificationsForAdmin'
+2025-11-02 23:57:21.258 +04:00 [DBG] The request path /api/Category/GetActiveCategories does not match a supported file type
+2025-11-02 23:57:21.269 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Category/GetActiveCategories'
+2025-11-02 23:57:21.269 +04:00 [DBG] 1 candidate(s) found for the request path '/api/City/GetActiveCities'
+2025-11-02 23:57:21.278 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.288 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.301 +04:00 [DBG] Endpoint 'OutOut.Controllers.OfferController.GetOfferTypes (OutOut)' with route pattern 'api/Offer/GetOfferTypes' is valid for the request path '/api/Offer/GetOfferTypes'
+2025-11-02 23:57:21.303 +04:00 [DBG] Establishing new connection.
+2025-11-02 23:57:21.324 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.AdminProfileController.GetMyNotificationsForAdmin (OutOut)'
+2025-11-02 23:57:21.326 +04:00 [DBG] 1 candidate(s) found for the request path '/api/Category/GetActiveCategories'
+2025-11-02 23:57:21.329 +04:00 [DBG] Endpoint 'OutOut.Controllers.CategoryController.GetActiveCategories (OutOut)' with route pattern 'api/Category/GetActiveCategories' is valid for the request path '/api/Category/GetActiveCategories'
+2025-11-02 23:57:21.332 +04:00 [DBG] Endpoint 'OutOut.Controllers.CityController.GetActiveCities (OutOut)' with route pattern 'api/City/GetActiveCities' is valid for the request path '/api/City/GetActiveCities'
+2025-11-02 23:57:21.341 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.341 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.341 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.341 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.345 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.OfferController.GetOfferTypes (OutOut)'
+2025-11-02 23:57:21.347 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.349 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.352 +04:00 [DBG] Endpoint 'OutOut.Controllers.CategoryController.GetActiveCategories (OutOut)' with route pattern 'api/Category/GetActiveCategories' is valid for the request path '/api/Category/GetActiveCategories'
+2025-11-02 23:57:21.354 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.CategoryController.GetActiveCategories (OutOut)'
+2025-11-02 23:57:21.354 +04:00 [DBG] OnConnectedAsync started.
+2025-11-02 23:57:21.357 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.CityController.GetActiveCities (OutOut)'
+2025-11-02 23:57:21.362 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.362 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.363 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.365 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.367 +04:00 [DBG] Socket opened using Sub-Protocol: 'null'.
+2025-11-02 23:57:21.368 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.372 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.381 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.388 +04:00 [DBG] Request matched endpoint 'OutOut.Controllers.CategoryController.GetActiveCategories (OutOut)'
+2025-11-02 23:57:21.392 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.398 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.441 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.446 +04:00 [INF] Executing endpoint 'OutOut.Controllers.EventController.GetUpcomingEvents (OutOut)'
+2025-11-02 23:57:21.446 +04:00 [INF] Executing endpoint 'OutOut.Controllers.VenueController.GetNewestVenues (OutOut)'
+2025-11-02 23:57:21.446 +04:00 [INF] Executing endpoint 'OutOut.Controllers.OfferController.GetNewestOffers (OutOut)'
+2025-11-02 23:57:21.446 +04:00 [INF] Executing endpoint 'OutOut.Controllers.EventController.GetOngoingEvents (OutOut)'
+2025-11-02 23:57:21.456 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.460 +04:00 [DBG] The request has an origin header: 'http://localhost:6200'.
+2025-11-02 23:57:21.467 +04:00 [INF] Executing endpoint 'OutOut.Controllers.OfferController.GetAssignedUpcomingOffersPage (OutOut)'
+2025-11-02 23:57:21.468 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.472 +04:00 [DBG] Found protocol implementation for requested protocol: json.
+2025-11-02 23:57:21.474 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.481 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.508 +04:00 [INF] Route matched with {action = "GetUpcomingEvents", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUpcomingEvents() on controller OutOut.Controllers.EventController (OutOut).
+2025-11-02 23:57:21.510 +04:00 [INF] Route matched with {action = "GetNewestVenues", controller = "Venue"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNewestVenues() on controller OutOut.Controllers.VenueController (OutOut).
+2025-11-02 23:57:21.518 +04:00 [INF] Route matched with {action = "GetNewestOffers", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNewestOffers() on controller OutOut.Controllers.OfferController (OutOut).
+2025-11-02 23:57:21.531 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.535 +04:00 [INF] CORS policy execution successful.
+2025-11-02 23:57:21.536 +04:00 [INF] Route matched with {action = "GetOngoingEvents", controller = "Event"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOngoingEvents() on controller OutOut.Controllers.EventController (OutOut).
+2025-11-02 23:57:21.544 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.555 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.559 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.559 +04:00 [DBG] Completed connection handshake. Using HubProtocol 'json'.
+2025-11-02 23:57:21.563 +04:00 [INF] Route matched with {action = "GetAssignedUpcomingOffersPage", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAssignedUpcomingOffersPage(OutOut.ViewModels.Wrappers.PaginationRequest, OutOut.ViewModels.Requests.ManageAdminDashboard.FilterationRequest) on controller OutOut.Controllers.OfferController (OutOut).
+2025-11-02 23:57:21.570 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.577 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.594 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.596 +04:00 [DBG] Successfully validated the token.
+2025-11-02 23:57:21.598 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.599 +04:00 [INF] Executing endpoint 'OutOut.Controllers.AdminProfileController.GetMyNotificationsForAdmin (OutOut)'
+2025-11-02 23:57:21.599 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.600 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.604 +04:00 [INF] Executing endpoint 'OutOut.Controllers.OfferController.GetOfferTypes (OutOut)'
+2025-11-02 23:57:21.605 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.609 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.619 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.625 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.625 +04:00 [DBG] Received hub invocation: InvocationMessage { InvocationId: "0", Target: "GetConnectionId", Arguments: [  ], StreamIds: [  ] }.
+2025-11-02 23:57:21.629 +04:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-11-02 23:57:21.633 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.640 +04:00 [INF] Executing endpoint 'OutOut.Controllers.CategoryController.GetActiveCategories (OutOut)'
+2025-11-02 23:57:21.641 +04:00 [INF] Route matched with {action = "GetMyNotificationsForAdmin", controller = "AdminProfile"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetMyNotificationsForAdmin(OutOut.ViewModels.Wrappers.PaginationRequest) on controller OutOut.Controllers.AdminProfileController (OutOut).
+2025-11-02 23:57:21.644 +04:00 [INF] Executing endpoint 'OutOut.Controllers.CityController.GetActiveCities (OutOut)'
+2025-11-02 23:57:21.649 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.653 +04:00 [INF] Route matched with {action = "GetOfferTypes", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetOfferTypes() on controller OutOut.Controllers.OfferController (OutOut).
+2025-11-02 23:57:21.660 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.666 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.669 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.674 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.675 +04:00 [INF] Executing endpoint 'OutOut.Controllers.CategoryController.GetActiveCategories (OutOut)'
+2025-11-02 23:57:21.685 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.688 +04:00 [INF] Route matched with {action = "GetActiveCategories", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveCategories(OutOut.ViewModels.Requests.TypesFor.TypeForRequest) on controller OutOut.Controllers.CategoryController (OutOut).
+2025-11-02 23:57:21.693 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.697 +04:00 [INF] Route matched with {action = "GetActiveCities", controller = "City"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveCities() on controller OutOut.Controllers.CityController (OutOut).
+2025-11-02 23:57:21.699 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.705 +04:00 [DBG] Received hub invocation: InvocationMessage { InvocationId: "1", Target: "AddUserToGroup", Arguments: [ aS4S7V_Sw3qwSr6AcBf0SA, c9c44c65-66c1-48b2-b280-5a7ba3d52bca ], StreamIds: [  ] }.
+2025-11-02 23:57:21.705 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.713 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.731 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.739 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.750 +04:00 [INF] Route matched with {action = "GetActiveCategories", controller = "Category"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetActiveCategories(OutOut.ViewModels.Requests.TypesFor.TypeForRequest) on controller OutOut.Controllers.CategoryController (OutOut).
+2025-11-02 23:57:21.762 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.773 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.782 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.789 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.790 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.795 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:57:21.796 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:57:21.799 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:57:21.805 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:57:21.808 +04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-02 23:57:21.811 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.814 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.816 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:57:21.819 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.823 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.827 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.EventController (OutOut)
+2025-11-02 23:57:21.830 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.VenueController (OutOut)
+2025-11-02 23:57:21.832 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.OfferController (OutOut)
+2025-11-02 23:57:21.835 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.EventController (OutOut)
+2025-11-02 23:57:21.838 +04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-02 23:57:21.842 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.844 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.847 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.OfferController (OutOut)
+2025-11-02 23:57:21.849 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.852 +04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-02 23:57:21.854 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.EventController (OutOut)
+2025-11-02 23:57:21.859 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.EventController (OutOut)
+2025-11-02 23:57:21.859 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.OfferController (OutOut)
+2025-11-02 23:57:21.860 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.VenueController (OutOut)
+2025-11-02 23:57:21.862 +04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-11-02 23:57:21.865 +04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2025-11-02 23:57:21.871 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.OfferController (OutOut)
+2025-11-02 23:57:21.927 +04:00 [DBG] Executing controller factory for controller OutOut.Controllers.AdminProfileController (OutOut)
+2025-11-02 23:57:22.760 +04:00 [DBG] Attempting to bind parameter 'paginationRequest' of type 'OutOut.ViewModels.Wrappers.PaginationRequest' ...
+2025-11-02 23:57:23.037 +04:00 [DBG] Executed controller factory for controller OutOut.Controllers.AdminProfileController (OutOut)
