@@ -18,16 +18,21 @@ namespace OutOut.Core.Mappers.Converters
       
         public LocationResponse Convert(Location source, LocationResponse destination, ResolutionContext context)
         {
+            if (source == null)
+            {
+                return null;
+            }
+
             var user = _userDetailsProvider.User;
-            return source == null || user.Location == null ? null : new LocationResponse
+            return new LocationResponse
             {
                 Latitude = source.GeoPoint.Coordinates.Latitude,
                 Longitude = source.GeoPoint.Coordinates.Longitude,
-                Distance = user.Location == null ? 0 : GeoCoordinateUtils.CalculateDistance(user.Location.GeoPoint.Coordinates.Latitude,
+                Distance = user?.Location == null ? 0 : GeoCoordinateUtils.CalculateDistance(user.Location.GeoPoint.Coordinates.Latitude,
                                                                 user.Location.GeoPoint.Coordinates.Longitude,
                                                                 source.GeoPoint.Coordinates.Latitude,
                                                                 source.GeoPoint.Coordinates.Longitude),
-                City = new CitySummaryResponse {Id = source.City.Id, Name = source.City.Name, IsActive = source.City.IsActive },
+                City = new CitySummaryResponse { Id = source.City.Id, Name = source.City.Name, IsActive = source.City.IsActive },
                 Area = source.Area,
                 Description = source.Description,
             };

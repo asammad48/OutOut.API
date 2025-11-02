@@ -14,8 +14,11 @@ namespace OutOut.Core.Mappers.Converters
 
         public bool Convert(string eventOccurrenceId, ResolutionContext context)
         {
-            var user = _userDetailsProvider.User;
-            return user.FavoriteEvents.Contains(eventOccurrenceId);
+            if (_userDetailsProvider.User == null)
+            {
+                return false;
+            }
+            return _userDetailsProvider.User.FavoriteEvents.Contains(eventOccurrenceId);
         }
     }
 }

@@ -32,6 +32,7 @@ using OutOut.Models.Utils;
 using OutOut.Persistence;
 using OutOut.Persistence.Extensions;
 using OutOut.Persistence.Identity.Stores;
+using OutOut.Persistence.Providers;
 using OutOut.ViewModels.Wrappers;
 using Serilog;
 using System.Text;
@@ -303,4 +304,15 @@ catch (Exception ex)
 //------------------------------------------------------
 // ✅ 10. Run the app — keeps container alive
 //------------------------------------------------------
-app.Run();
+try
+{
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Host terminated unexpectedly");
+}
+finally
+{
+    Log.CloseAndFlush();
+}

@@ -30,10 +30,16 @@ namespace OutOut.API.Middleware
             if (!isAuthenticated && environment.IsDevelopment())
             {
                 var superAdmin = await userManager.FindByEmailAsync(appSettingsOptions.Value.SuperAdminEmail);
-                var superAdminRoles = await userManager.GetRolesAsync(superAdmin);
-                userDetailsProvider.Initialize(superAdmin, superAdminRoles.ToList(), string.Empty);
-
-                await userRepository.UpdateLastUsageDate(superAdmin.Id);
+                if (superAdmin != null)
+                {
+                    var superAdminRoles = await userManager.GetRolesAsync(superAdmin);
+                    userDetailsProvider.Initialize(superAdmin, superAdminRoles.ToList(), string.Empty);
+                    await userRepository.UpdateLastUsageDate(superAdmin.Id);
+                }
+                else
+                {
+                    userDetailsProvider.InitializeUnAuthenticated();
+                }
 
                 await _next(context);
                 return;

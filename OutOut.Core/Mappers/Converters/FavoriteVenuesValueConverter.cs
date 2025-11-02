@@ -14,8 +14,11 @@ namespace OutOut.Core.Mappers.Converters
 
         public bool Convert(string venueId, ResolutionContext context)
         {
-            var user = _userDetailsProvider.User;
-            return user.FavoriteVenues.Contains(venueId);
+            if (_userDetailsProvider.User == null)
+            {
+                return false;
+            }
+            return _userDetailsProvider.User.FavoriteVenues.Contains(venueId);
         }
     }
 }

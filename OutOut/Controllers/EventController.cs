@@ -259,5 +259,6 @@ namespace OutOut.Controllers
             var result = await _eventService.ExportSelectedEventBookingsDetailsReportToExcel(eventId, bookingId);
             return File(result.File, "application/octet-stream", result.FileName);
         }
+
     }
 }

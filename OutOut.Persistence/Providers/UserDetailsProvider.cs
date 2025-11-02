@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 using OutOut.Constants;
 using OutOut.Models.Identity;
 using OutOut.Persistence.Interfaces;
@@ -9,11 +10,14 @@ namespace OutOut.Persistence.Providers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IVenueRepository _venueRepository;
+        private readonly ILogger<UserDetailsProvider> _logger;
 
-        public UserDetailsProvider(UserManager<ApplicationUser> userManager, IVenueRepository venueRepository)
+        public UserDetailsProvider(UserManager<ApplicationUser> userManager, IVenueRepository venueRepository, ILogger<UserDetailsProvider> logger)
         {
             _userManager = userManager;
             _venueRepository = venueRepository;
+            _logger = logger;
+            _logger.LogInformation("UserDetailsProvider created.");
         }
 
         public string UserId { get; private set; }
@@ -25,6 +29,7 @@ namespace OutOut.Persistence.Providers
 
         public void Initialize(ApplicationUser user, List<string> userRoles, string accessToken)
         {
+            _logger.LogInformation("UserDetailsProvider initialized.");
             UserId = user.Id;
             User = user;
             UserRoles = userRoles;
@@ -35,6 +40,7 @@ namespace OutOut.Persistence.Providers
 
         public void InitializeUnAuthenticated()
         {
+            _logger.LogInformation("UserDetailsProvider initialized unauthenticated.");
             User = new ApplicationUser();
             User.Roles = new List<string>();
         }

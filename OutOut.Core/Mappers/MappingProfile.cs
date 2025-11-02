@@ -51,6 +51,7 @@ using OutOut.Models.Utils;
 using DocumentFormat.OpenXml.Drawing.ChartDrawing;
 using DocumentFormat.OpenXml.Presentation;
 using OutOut.Constants.Enums;
+using OutOut.Persistence.Providers;
 
 namespace OutOut.Core.Mappers
 {
@@ -526,7 +527,10 @@ namespace OutOut.Core.Mappers
                 .ForMember(c => c.EndDate, src => src.MapFrom(src => src.EndDate.Date));
 
             CreateMap<SingleEventOccurrence, SingleEventOccurrenceResponse>()
-                .ForMember(c => c.IsFavorite, opt => opt.ConvertUsing<FavoriteEventsValueConverter, string>(src => src.Occurrence.Id))
+                .ForMember(c => c.IsFavorite, opt => opt.MapFrom((src, dest, destMember, context) => {
+                    var userDetailsProvider = (IUserDetailsProvider)context.Items["UserDetailsProvider"];
+                    return userDetailsProvider.User?.FavoriteEvents.Contains(src.Occurrence.Id) ?? false;
+                }))
                 .ForMember(dest => dest.Image, src => src.MapFrom(src => GetFullPath(appSettings.Directories.EventsImages, src.Image)))
                 .ForMember(c => c.Categories, opt => opt.MapFrom(src => src.Categories.Where(a => a.IsActive == true)))
                 .AfterMap((src, dest) => dest.Occurrence.Packages = dest.Occurrence.Packages.OrderBy(p => p.Price).ToList());
