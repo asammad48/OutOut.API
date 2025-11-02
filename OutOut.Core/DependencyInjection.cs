@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using AutoMapper;
+using Microsoft.Extensions.DependencyInjection;
 using OutOut.Core.Mappers;
 using OutOut.Core.Mappers.Converters;
 using OutOut.Core.Services;
@@ -13,8 +14,6 @@ namespace OutOut.Core
     {
         public static IServiceCollection AddAutomapper(this IServiceCollection services, AppSettings appSettings)
         {
-            var serviceProvider = services.BuildServiceProvider();
-
             services.AddScoped<LocationTypeConverter>();
             services.AddScoped<EventReportTypeConverter>();
             services.AddScoped<VenueReportTypeConverter>();
@@ -38,11 +37,16 @@ namespace OutOut.Core
             services.AddScoped<AbsenteesCountPerEventBookingValueConverter>();
             services.AddScoped<AttendeesCountPerEventBookingValueConverter>();
             services.AddScoped<OfferTypeUsageCountPerVenueValueConverter>();
-            services.AddAutoMapper(cfg =>
+
+            var serviceProvider = services.BuildServiceProvider();
+            var mapperConfig = new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new MappingProfile(appSettings));
                 cfg.ConstructServicesUsing(type => ActivatorUtilities.CreateInstance(serviceProvider, type));
             });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
 
             return services;
         }

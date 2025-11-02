@@ -1,0 +1,269 @@
+2025-11-02 14:26:17.754 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 14:26:18.037 +00:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 14:36:43.760 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 14:36:44.625 +00:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 14:36:46.320 +00:00 [DBG] Acquired lock for migration
+2025-11-02 14:36:46.566 +00:00 [INF] Executing migration for schema 'Version05'
+2025-11-02 14:36:46.884 +00:00 [INF] Executed migration step: CreateJobIdIndex[0] in 273ms
+2025-11-02 14:36:47.201 +00:00 [INF] Executing migration for schema 'Version06'
+2025-11-02 14:36:47.278 +00:00 [INF] Executed migration step: StateDataCreateIndex[0] in 74ms
+2025-11-02 14:36:47.354 +00:00 [INF] Executed migration step: JobMigration[1] in 76ms
+2025-11-02 14:36:47.377 +00:00 [INF] Executed migration step: ScheduledJobMigration[2] in 23ms
+2025-11-02 14:36:47.418 +00:00 [INF] Executed migration step: RecurringJobMigration[3] in 40ms
+2025-11-02 14:36:47.435 +00:00 [INF] Executed migration step: EnqueuedJobMigration[4] in 16ms
+2025-11-02 14:36:47.440 +00:00 [INF] Executed migration step: CountersMigration[5] in 4ms
+2025-11-02 14:36:47.456 +00:00 [INF] Executed migration step: RemoveObsoleteCollections[99] in 16ms
+2025-11-02 14:36:47.497 +00:00 [INF] Executing migration for schema 'Version07'
+2025-11-02 14:36:47.518 +00:00 [INF] Executed migration step: StateDataRename[0] in 20ms
+2025-11-02 14:36:47.530 +00:00 [INF] Executed migration step: EnqueuedJobMigration[1] in 12ms
+2025-11-02 14:36:47.542 +00:00 [INF] Executing migration for schema 'Version08'
+2025-11-02 14:36:47.591 +00:00 [INF] Executed migration step: PascalCaseRename[0] in 48ms
+2025-11-02 14:36:47.599 +00:00 [INF] Executing migration for schema 'Version09'
+2025-11-02 14:36:47.636 +00:00 [INF] Executed migration step: CreateSignalCollection[0] in 36ms
+2025-11-02 14:36:47.641 +00:00 [INF] Executing migration for schema 'Version10'
+2025-11-02 14:36:47.645 +00:00 [INF] Executed migration step: UpdateSchemaCollection[0] in 3ms
+2025-11-02 14:36:47.650 +00:00 [INF] Executing migration for schema 'Version11'
+2025-11-02 14:36:47.667 +00:00 [INF] Executed migration step: UseObjectIdForJob[0] in 16ms
+2025-11-02 14:36:47.677 +00:00 [INF] Executing migration for schema 'Version12'
+2025-11-02 14:36:48.005 +00:00 [INF] Executed migration step: CreateIndexes[0] in 327ms
+2025-11-02 14:36:48.008 +00:00 [INF] Executing migration for schema 'Version13'
+2025-11-02 14:36:48.210 +00:00 [INF] Executed migration step: CombineJobsStateDataAndJobQueue[0] in 201ms
+2025-11-02 14:36:48.432 +00:00 [INF] Executed migration step: CreateIndexes[1] in 221ms
+2025-11-02 14:36:48.435 +00:00 [INF] Executed migration step: SumCounters[2] in 2ms
+2025-11-02 14:36:48.443 +00:00 [INF] Executed migration step: AddFieldsToHash[3] in 8ms
+2025-11-02 14:36:48.453 +00:00 [INF] Executed migration step: RemoveObsoleteCollections[99] in 8ms
+2025-11-02 14:36:48.462 +00:00 [INF] Executing migration for schema 'Version14'
+2025-11-02 14:36:48.479 +00:00 [INF] Executed migration step: RemoveMergedHashDtos[0] in 17ms
+2025-11-02 14:36:48.482 +00:00 [INF] Executed migration step: RemoveLegacyLocks[1] in 2ms
+2025-11-02 14:36:48.498 +00:00 [INF] Executing migration for schema 'Version15'
+2025-11-02 14:36:48.521 +00:00 [INF] Executed migration step: CreateUniqueLockIndex[0] in 23ms
+2025-11-02 14:36:48.540 +00:00 [INF] Executed migration step: MakeServerDataEmbeddedDocument[1] in 18ms
+2025-11-02 14:36:48.562 +00:00 [INF] Executed migration step: CreateCompositeKeys[2] in 20ms
+2025-11-02 14:36:48.574 +00:00 [INF] Executed migration step: RemoveMergedCounters[3] in 11ms
+2025-11-02 14:36:48.632 +00:00 [INF] Executed migration step: UpdateListDtoKeySchema[4] in 57ms
+2025-11-02 14:36:48.830 +00:00 [INF] Executed migration step: UpdateIndexes[5] in 198ms
+2025-11-02 14:36:48.843 +00:00 [INF] Executing migration for schema 'Version16'
+2025-11-02 14:36:48.861 +00:00 [INF] Executed migration step: UpdateSetDtoKeyAndValueField[0] in 14ms
+2025-11-02 14:36:48.869 +00:00 [INF] Executed migration step: RemoveObsoleteCollections[99] in 6ms
+2025-11-02 14:36:48.874 +00:00 [INF] Executing migration for schema 'Version17'
+2025-11-02 14:36:48.889 +00:00 [INF] Executed migration step: AddNotificationsCollection[0] in 15ms
+2025-11-02 14:36:48.892 +00:00 [INF] Executing migration for schema 'Version18'
+2025-11-02 14:36:48.902 +00:00 [INF] Executed migration step: UpdateIndexes[0] in 8ms
+2025-11-02 14:36:48.905 +00:00 [INF] Executing migration for schema 'Version19'
+2025-11-02 14:36:48.937 +00:00 [INF] Executed migration step: AddTypeToSetDto[0] in 31ms
+2025-11-02 14:36:48.941 +00:00 [INF] Instance with clientId: 0df8d02b657543f5a0d5b1e1a1c51871 is executed migration from None -> Version19 in 2379ms
+2025-11-02 14:36:48.971 +00:00 [INF] Starting Hangfire Server using job storage: 'Connection string: mongodb://<username>:<password>@localhost:27017, database name: Hangfire_Dev, prefix: hangfire'
+2025-11-02 14:36:48.979 +00:00 [INF] Using the following options for Mongo DB job storage:
+2025-11-02 14:36:48.984 +00:00 [INF]     Prefix: hangfire.
+2025-11-02 14:36:48.987 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-11-02 14:36:49.050 +00:00 [DBG] Execution loop BackgroundServerProcess:a0f8f929 has started in 8.8386 ms
+2025-11-02 14:36:49.119 +00:00 [INF] Server devbox:8859:a4248678 successfully announced in 46.4947 ms
+2025-11-02 14:36:49.144 +00:00 [DBG] Execution loop ServerHeartbeatProcess:97140aeb has started in 10.9486 ms
+2025-11-02 14:36:49.146 +00:00 [INF] Server devbox:8859:a4248678 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, MongoExpirationManager, MongoNotificationObserver, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-11-02 14:36:49.156 +00:00 [DBG] Execution loop ServerWatchdog:f27e8f1e has started in 7.6679 ms
+2025-11-02 14:36:49.161 +00:00 [DBG] Execution loop ServerJobCancellationWatcher:bf7a729a has started in 3.2137 ms
+2025-11-02 14:36:49.168 +00:00 [DBG] Execution loop MongoExpirationManager:9f47df4c has started in 5.3841 ms
+2025-11-02 14:36:49.171 +00:00 [DBG] Execution loop MongoNotificationObserver:f8af70e9 has started in 2.3715 ms
+2025-11-02 14:36:49.176 +00:00 [DBG] Execution loop Worker:d97baa6b has started in 5.0609 ms
+2025-11-02 14:36:49.185 +00:00 [DBG] Execution loop Worker:ac797ce9 has started in 12.7939 ms
+2025-11-02 14:36:49.204 +00:00 [DBG] Execution loop Worker:8629093c has started in 31.7293 ms
+2025-11-02 14:36:49.219 +00:00 [DBG] Execution loop Worker:dd057681 has started in 47.0034 ms
+2025-11-02 14:36:49.239 +00:00 [DBG] Execution loop Worker:2360a1f5 has started in 65.3952 ms
+2025-11-02 14:36:49.245 +00:00 [DBG] Execution loop Worker:4376c64b has started in 73.4046 ms
+2025-11-02 14:36:49.253 +00:00 [DBG] Execution loop Worker:6cc61439 has started in 82.0576 ms
+2025-11-02 14:36:49.255 +00:00 [DBG] Execution loop Worker:b363542a has started in 83.6706 ms
+2025-11-02 14:36:49.262 +00:00 [DBG] Execution loop Worker:426e3d42 has started in 89.968 ms
+2025-11-02 14:36:49.267 +00:00 [DBG] Execution loop Worker:7770ec90 has started in 95.632 ms
+2025-11-02 14:36:49.281 +00:00 [DBG] Execution loop Worker:35bb5f27 has started in 108.9816 ms
+2025-11-02 14:36:49.301 +00:00 [DBG] Execution loop Worker:954a2294 has started in 129.2394 ms
+2025-11-02 14:36:49.325 +00:00 [DBG] Execution loop Worker:890ba6d8 has started in 153.2448 ms
+2025-11-02 14:36:49.330 +00:00 [DBG] Execution loop Worker:aac3f927 has started in 158.8304 ms
+2025-11-02 14:36:49.334 +00:00 [DBG] Execution loop Worker:197c793e has started in 163.211 ms
+2025-11-02 14:36:49.361 +00:00 [DBG] Execution loop Worker:9177eaa1 has started in 185.7056 ms
+2025-11-02 14:36:49.371 +00:00 [DBG] Execution loop Worker:b983e3b5 has started in 198.6388 ms
+2025-11-02 14:36:49.383 +00:00 [DBG] Removed 0 outdated documents from 'hangfire.jobGraph'.
+2025-11-02 14:36:49.384 +00:00 [DBG] Execution loop Worker:e8681f73 has started in 211.9027 ms
+2025-11-02 14:36:49.397 +00:00 [DBG] Execution loop Worker:96ffa2d0 has started in 225.1267 ms
+2025-11-02 14:36:49.395 +00:00 [DBG] Execution loop Worker:87cabb63 has started in 222.9061 ms
+2025-11-02 14:36:49.397 +00:00 [DBG] Execution loop DelayedJobScheduler:2bef1e47 has started in 2.3076 ms
+2025-11-02 14:36:49.406 +00:00 [DBG] Execution loop RecurringJobScheduler:cbffdf6c has started in 8.3828 ms
+2025-11-02 14:36:49.406 +00:00 [INF] Server devbox:8859:a4248678 all the dispatchers started
+2025-11-02 14:36:49.790 +00:00 [DBG] Hosting starting
+2025-11-02 14:36:49.835 +00:00 [INF] User profile is available. Using '/home/jules/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-02 14:38:38.212 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 14:38:38.504 +00:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 14:38:39.054 +00:00 [DBG] Acquired lock for migration
+2025-11-02 14:38:39.163 +00:00 [INF] Starting Hangfire Server using job storage: 'Connection string: mongodb://<username>:<password>@localhost:27017, database name: Hangfire_Dev, prefix: hangfire'
+2025-11-02 14:38:39.164 +00:00 [INF] Using the following options for Mongo DB job storage:
+2025-11-02 14:38:39.164 +00:00 [INF]     Prefix: hangfire.
+2025-11-02 14:38:39.164 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-11-02 14:38:39.189 +00:00 [DBG] Execution loop BackgroundServerProcess:cf2c21b6 has started in 3.9251 ms
+2025-11-02 14:38:39.223 +00:00 [INF] Server devbox:9466:1582c915 successfully announced in 29.5024 ms
+2025-11-02 14:38:39.226 +00:00 [DBG] Execution loop ServerHeartbeatProcess:2c8db932 has started in 1.9666 ms
+2025-11-02 14:38:39.228 +00:00 [INF] Server devbox:9466:1582c915 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, MongoExpirationManager, MongoNotificationObserver, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-11-02 14:38:39.229 +00:00 [DBG] Execution loop ServerWatchdog:a1b42417 has started in 1.3815 ms
+2025-11-02 14:38:39.233 +00:00 [DBG] Execution loop ServerJobCancellationWatcher:2cf02dc2 has started in 4.03 ms
+2025-11-02 14:38:39.236 +00:00 [DBG] Execution loop MongoExpirationManager:2755e2a1 has started in 0.5713 ms
+2025-11-02 14:38:39.239 +00:00 [DBG] Execution loop MongoNotificationObserver:e8990a49 has started in 2.4827 ms
+2025-11-02 14:38:39.243 +00:00 [DBG] Execution loop Worker:3176dac4 has started in 2.6674 ms
+2025-11-02 14:38:39.244 +00:00 [DBG] Execution loop Worker:8e82fa87 has started in 4.099 ms
+2025-11-02 14:38:39.247 +00:00 [DBG] Execution loop Worker:53e91c1b has started in 6.4421 ms
+2025-11-02 14:38:39.250 +00:00 [DBG] Execution loop Worker:1426438f has started in 9.9814 ms
+2025-11-02 14:38:39.251 +00:00 [DBG] Execution loop Worker:2c1537de has started in 10.6981 ms
+2025-11-02 14:38:39.251 +00:00 [DBG] Execution loop Worker:3376c40e has started in 11.3226 ms
+2025-11-02 14:38:39.252 +00:00 [DBG] Execution loop Worker:249da598 has started in 11.8696 ms
+2025-11-02 14:38:39.253 +00:00 [DBG] Execution loop Worker:18b42661 has started in 13.1714 ms
+2025-11-02 14:38:39.254 +00:00 [DBG] Execution loop Worker:2218af58 has started in 14.1099 ms
+2025-11-02 14:38:39.260 +00:00 [DBG] Execution loop Worker:15fcbc9c has started in 19.5832 ms
+2025-11-02 14:38:39.260 +00:00 [DBG] Execution loop Worker:cd4fb1ad has started in 20.0693 ms
+2025-11-02 14:38:39.262 +00:00 [DBG] Execution loop Worker:74e36aa6 has started in 22.3549 ms
+2025-11-02 14:38:39.263 +00:00 [DBG] Execution loop Worker:17e32e7a has started in 23.2935 ms
+2025-11-02 14:38:39.269 +00:00 [DBG] Execution loop Worker:3d1bb4df has started in 29.164 ms
+2025-11-02 14:38:39.270 +00:00 [DBG] Removed 0 outdated documents from 'hangfire.jobGraph'.
+2025-11-02 14:38:39.271 +00:00 [DBG] Execution loop Worker:ce10f36e has started in 30.578 ms
+2025-11-02 14:38:39.272 +00:00 [DBG] Execution loop Worker:335ad70e has started in 31.5691 ms
+2025-11-02 14:38:39.272 +00:00 [DBG] Execution loop Worker:a5df5c51 has started in 31.931 ms
+2025-11-02 14:38:39.273 +00:00 [DBG] Execution loop Worker:971f2ffb has started in 32.5599 ms
+2025-11-02 14:38:39.274 +00:00 [DBG] Execution loop Worker:1d7796c7 has started in 33.5117 ms
+2025-11-02 14:38:39.274 +00:00 [DBG] Execution loop Worker:17053bf9 has started in 34.2153 ms
+2025-11-02 14:38:39.275 +00:00 [DBG] Execution loop DelayedJobScheduler:1a658839 has started in 0.6489 ms
+2025-11-02 14:38:39.278 +00:00 [DBG] Execution loop RecurringJobScheduler:3268d506 has started in 2.2103 ms
+2025-11-02 14:38:39.281 +00:00 [INF] Server devbox:9466:1582c915 all the dispatchers started
+2025-11-02 14:38:39.403 +00:00 [DBG] Hosting starting
+2025-11-02 14:38:39.414 +00:00 [INF] User profile is available. Using '/home/jules/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-02 14:39:32.170 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 14:39:32.441 +00:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 14:39:32.865 +00:00 [DBG] Acquired lock for migration
+2025-11-02 14:39:32.954 +00:00 [INF] Starting Hangfire Server using job storage: 'Connection string: mongodb://<username>:<password>@localhost:27017, database name: Hangfire_Dev, prefix: hangfire'
+2025-11-02 14:39:32.954 +00:00 [INF] Using the following options for Mongo DB job storage:
+2025-11-02 14:39:32.954 +00:00 [INF]     Prefix: hangfire.
+2025-11-02 14:39:32.954 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-11-02 14:39:32.977 +00:00 [DBG] Execution loop BackgroundServerProcess:b663f1a2 has started in 3.6224 ms
+2025-11-02 14:39:33.003 +00:00 [INF] Server devbox:9886:eccffc10 successfully announced in 21.3981 ms
+2025-11-02 14:39:33.006 +00:00 [DBG] Execution loop ServerHeartbeatProcess:2df20d87 has started in 1.6795 ms
+2025-11-02 14:39:33.007 +00:00 [INF] Server devbox:9886:eccffc10 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, MongoExpirationManager, MongoNotificationObserver, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-11-02 14:39:33.007 +00:00 [DBG] Execution loop ServerWatchdog:01288de9 has started in 0.3651 ms
+2025-11-02 14:39:33.009 +00:00 [DBG] Execution loop ServerJobCancellationWatcher:5c9ca24f has started in 1.6364 ms
+2025-11-02 14:39:33.011 +00:00 [DBG] Execution loop MongoExpirationManager:5cdac2a2 has started in 0.7877 ms
+2025-11-02 14:39:33.012 +00:00 [DBG] Execution loop MongoNotificationObserver:deebaaf2 has started in 0.816 ms
+2025-11-02 14:39:33.015 +00:00 [DBG] Execution loop Worker:325c0ca1 has started in 3.068 ms
+2025-11-02 14:39:33.018 +00:00 [DBG] Execution loop Worker:77d1208a has started in 5.5263 ms
+2025-11-02 14:39:33.021 +00:00 [DBG] Execution loop Worker:a61e4106 has started in 9.167 ms
+2025-11-02 14:39:33.022 +00:00 [DBG] Execution loop Worker:accc39be has started in 9.845 ms
+2025-11-02 14:39:33.024 +00:00 [DBG] Execution loop Worker:eeac3008 has started in 12.2191 ms
+2025-11-02 14:39:33.025 +00:00 [DBG] Execution loop Worker:431670e6 has started in 13.0495 ms
+2025-11-02 14:39:33.027 +00:00 [DBG] Execution loop Worker:e107d6bf has started in 15.0998 ms
+2025-11-02 14:39:33.028 +00:00 [DBG] Execution loop Worker:04e0e4c9 has started in 16.0878 ms
+2025-11-02 14:39:33.033 +00:00 [DBG] Execution loop Worker:c72f3a24 has started in 21.2897 ms
+2025-11-02 14:39:33.035 +00:00 [DBG] Execution loop Worker:4a598550 has started in 22.9976 ms
+2025-11-02 14:39:33.036 +00:00 [DBG] Execution loop Worker:8b6ac1aa has started in 24.49 ms
+2025-11-02 14:39:33.039 +00:00 [DBG] Execution loop Worker:ba48164e has started in 26.6366 ms
+2025-11-02 14:39:33.040 +00:00 [DBG] Execution loop Worker:a605803a has started in 27.9953 ms
+2025-11-02 14:39:33.042 +00:00 [DBG] Execution loop Worker:c7e1682b has started in 30.4893 ms
+2025-11-02 14:39:33.044 +00:00 [DBG] Removed 0 outdated documents from 'hangfire.jobGraph'.
+2025-11-02 14:39:33.044 +00:00 [DBG] Execution loop Worker:1c2145a9 has started in 32.2321 ms
+2025-11-02 14:39:33.044 +00:00 [DBG] Execution loop Worker:73980412 has started in 31.8011 ms
+2025-11-02 14:39:33.046 +00:00 [DBG] Execution loop Worker:c4f4e078 has started in 34.1761 ms
+2025-11-02 14:39:33.047 +00:00 [DBG] Execution loop Worker:859243bf has started in 35.0311 ms
+2025-11-02 14:39:33.048 +00:00 [DBG] Execution loop Worker:1a2e11ad has started in 36.0524 ms
+2025-11-02 14:39:33.050 +00:00 [DBG] Execution loop Worker:066b83a3 has started in 37.5224 ms
+2025-11-02 14:39:33.050 +00:00 [DBG] Execution loop DelayedJobScheduler:f1b3c280 has started in 0.4518 ms
+2025-11-02 14:39:33.051 +00:00 [DBG] Execution loop RecurringJobScheduler:fcbe9c05 has started in 0.4386 ms
+2025-11-02 14:39:33.051 +00:00 [INF] Server devbox:9886:eccffc10 all the dispatchers started
+2025-11-02 14:39:33.179 +00:00 [DBG] Hosting starting
+2025-11-02 14:39:33.188 +00:00 [INF] User profile is available. Using '/home/jules/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-02 14:40:42.463 +00:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-02 14:40:43.102 +00:00 [DBG] Registered SignalR Protocol: json, implemented by Microsoft.AspNetCore.SignalR.Protocol.JsonHubProtocol.
+2025-11-02 14:40:43.897 +00:00 [DBG] Acquired lock for migration
+2025-11-02 14:40:44.083 +00:00 [INF] Starting Hangfire Server using job storage: 'Connection string: mongodb://<username>:<password>@localhost:27017, database name: Hangfire_Dev, prefix: hangfire'
+2025-11-02 14:40:44.083 +00:00 [INF] Using the following options for Mongo DB job storage:
+2025-11-02 14:40:44.084 +00:00 [INF]     Prefix: hangfire.
+2025-11-02 14:40:44.085 +00:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-11-02 14:40:44.137 +00:00 [DBG] Execution loop BackgroundServerProcess:8a2d4981 has started in 12.71 ms
+2025-11-02 14:40:44.199 +00:00 [INF] Server devbox:10284:e0a0df2a successfully announced in 48.728 ms
+2025-11-02 14:40:44.205 +00:00 [DBG] Execution loop ServerHeartbeatProcess:9b1131c4 has started in 3.8571 ms
+2025-11-02 14:40:44.207 +00:00 [INF] Server devbox:10284:e0a0df2a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, MongoExpirationManager, MongoNotificationObserver, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-11-02 14:40:44.215 +00:00 [DBG] Execution loop ServerWatchdog:a752c890 has started in 7.1233 ms
+2025-11-02 14:40:44.216 +00:00 [DBG] Execution loop ServerJobCancellationWatcher:b6b7ed3c has started in 1.1959 ms
+2025-11-02 14:40:44.220 +00:00 [DBG] Execution loop MongoExpirationManager:92157b23 has started in 2.337 ms
+2025-11-02 14:40:44.223 +00:00 [DBG] Execution loop MongoNotificationObserver:8fbef528 has started in 2.6092 ms
+2025-11-02 14:40:44.228 +00:00 [DBG] Execution loop Worker:a1eaa634 has started in 3.6147 ms
+2025-11-02 14:40:44.231 +00:00 [DBG] Execution loop Worker:9c022cd1 has started in 6.4463 ms
+2025-11-02 14:40:44.233 +00:00 [DBG] Execution loop Worker:0d707cb5 has started in 8.7284 ms
+2025-11-02 14:40:44.251 +00:00 [DBG] Execution loop Worker:22e9ad28 has started in 26.8924 ms
+2025-11-02 14:40:44.254 +00:00 [DBG] Execution loop Worker:8fed95ae has started in 29.817 ms
+2025-11-02 14:40:44.255 +00:00 [DBG] Execution loop Worker:75fa47ad has started in 30.9983 ms
+2025-11-02 14:40:44.257 +00:00 [DBG] Execution loop Worker:a390b2a0 has started in 32.475 ms
+2025-11-02 14:40:44.258 +00:00 [DBG] Execution loop Worker:6e78150e has started in 34.0429 ms
+2025-11-02 14:40:44.259 +00:00 [DBG] Execution loop Worker:878eb293 has started in 34.8738 ms
+2025-11-02 14:40:44.261 +00:00 [DBG] Execution loop Worker:20c7c23f has started in 36.4141 ms
+2025-11-02 14:40:44.272 +00:00 [DBG] Execution loop Worker:7e431e0e has started in 47.3651 ms
+2025-11-02 14:40:44.273 +00:00 [DBG] Execution loop Worker:abfc5c02 has started in 48.7033 ms
+2025-11-02 14:40:44.275 +00:00 [DBG] Execution loop Worker:907d7596 has started in 50.9977 ms
+2025-11-02 14:40:44.279 +00:00 [DBG] Execution loop Worker:d39992b8 has started in 54.5901 ms
+2025-11-02 14:40:44.280 +00:00 [DBG] Execution loop Worker:a8884a61 has started in 56.0922 ms
+2025-11-02 14:40:44.290 +00:00 [DBG] Execution loop Worker:babca2d0 has started in 65.6786 ms
+2025-11-02 14:40:44.292 +00:00 [DBG] Execution loop Worker:60497065 has started in 67.3017 ms
+2025-11-02 14:40:44.293 +00:00 [DBG] Execution loop Worker:72820a33 has started in 68.9211 ms
+2025-11-02 14:40:44.295 +00:00 [DBG] Execution loop Worker:eb680a86 has started in 71.0908 ms
+2025-11-02 14:40:44.296 +00:00 [DBG] Execution loop Worker:e9bf24ee has started in 71.7881 ms
+2025-11-02 14:40:44.311 +00:00 [DBG] Execution loop DelayedJobScheduler:6116f329 has started in 14.6065 ms
+2025-11-02 14:40:44.314 +00:00 [DBG] Execution loop RecurringJobScheduler:839bbd63 has started in 2.5922 ms
+2025-11-02 14:40:44.315 +00:00 [INF] Server devbox:10284:e0a0df2a all the dispatchers started
+2025-11-02 14:40:44.374 +00:00 [DBG] Removed 0 outdated documents from 'hangfire.jobGraph'.
+2025-11-02 14:40:44.635 +00:00 [DBG] Hosting starting
+2025-11-02 14:40:44.653 +00:00 [INF] User profile is available. Using '/home/jules/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-11-02 14:40:44.749 +00:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2025-11-02 14:40:44.750 +00:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2025-11-02 14:40:44.755 +00:00 [INF] Creating key {15766c42-af82-4e67-b71d-73f33cadb3b9} with creation date 2025-11-02 14:40:44Z, activation date 2025-11-02 14:40:44Z, and expiration date 2026-01-31 14:40:44Z.
+2025-11-02 14:40:44.791 +00:00 [DBG] Descriptor deserializer type for key {15766c42-af82-4e67-b71d-73f33cadb3b9} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2025-11-02 14:40:44.809 +00:00 [DBG] No key escrow sink found. Not writing key {15766c42-af82-4e67-b71d-73f33cadb3b9} to escrow.
+2025-11-02 14:40:44.809 +00:00 [WRN] No XML encryptor configured. Key {15766c42-af82-4e67-b71d-73f33cadb3b9} may be persisted to storage in unencrypted form.
+2025-11-02 14:40:44.822 +00:00 [INF] Writing data to file '/home/jules/.aspnet/DataProtection-Keys/key-15766c42-af82-4e67-b71d-73f33cadb3b9.xml'.
+2025-11-02 14:40:44.823 +00:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2025-11-02 14:40:44.826 +00:00 [DBG] Reading data from file '/home/jules/.aspnet/DataProtection-Keys/key-15766c42-af82-4e67-b71d-73f33cadb3b9.xml'.
+2025-11-02 14:40:44.838 +00:00 [DBG] Found key {15766c42-af82-4e67-b71d-73f33cadb3b9}.
+2025-11-02 14:40:44.844 +00:00 [DBG] Considering key {15766c42-af82-4e67-b71d-73f33cadb3b9} with expiration date 2026-01-31 14:40:44Z as default key.
+2025-11-02 14:40:44.847 +00:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2025-11-02 14:40:44.848 +00:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2025-11-02 14:40:44.861 +00:00 [DBG] Using key {15766c42-af82-4e67-b71d-73f33cadb3b9} as the default key.
+2025-11-02 14:40:44.863 +00:00 [DBG] Key ring with default key {15766c42-af82-4e67-b71d-73f33cadb3b9} was loaded during application startup.
+2025-11-02 14:40:44.867 +00:00 [INF] Starting ReminderService...
+2025-11-02 14:40:45.063 +00:00 [WRN] The WebRootPath was not found: /app/OutOut/wwwroot. Static files may be unavailable.
+2025-11-02 14:40:45.114 +00:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-02 14:40:45.116 +00:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-02 14:40:45.147 +00:00 [INF] Now listening on: http://0.0.0.0:8080
+2025-11-02 14:40:45.147 +00:00 [DBG] Loaded hosting startup assembly OutOut
+2025-11-02 14:40:45.148 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 14:40:45.149 +00:00 [INF] Hosting environment: Development
+2025-11-02 14:40:45.149 +00:00 [INF] Content root path: /app/OutOut
+2025-11-02 14:40:45.153 +00:00 [DBG] Hosting started
+2025-11-02 14:41:14.222 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:41:44.225 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:42:14.228 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:42:44.230 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:43:14.232 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:43:44.237 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:44:14.240 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:44:44.242 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:45:14.244 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:45:44.235 +00:00 [INF] 3 servers were removed due to timeout
+2025-11-02 14:45:44.245 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:46:14.247 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
+2025-11-02 14:46:44.250 +00:00 [DBG] Server devbox:10284:e0a0df2a heartbeat successfully sent
